@@ -14,7 +14,6 @@ class Plugin_fileinfo extends Plugin {
     $file_info =  array(
       "file_ext"  => File::getExtension(BASE_PATH . $file),
       "file_size" => File::getSize(BASE_PATH . $file),
-      "file_type" => File::getType(BASE_PATH . $file),
     );
     return $file_info;
   }

@@ -14,7 +14,6 @@ Drop the `fileinfo` folder into the Statamic `/_add-ons/` folder.
 {{ fileinfo file="/assets/docs/mydocument.pdf" }}
   <li>Your file extension is: {{ file_ext }}
   <li>Tour file size is: {{ file_size }}
-  <li>The type of file is: {{ file_type }}
 {{ /fileinfo }}
 </ul>
 ~~~
@@ -22,3 +21,8 @@ Drop the `fileinfo` folder into the Statamic `/_add-ons/` folder.
 ## Parameters
 
 - file
+
+## Variables
+
+- `{{ file_ext }}` grabs the file extension
+- `{{ file_size }}` grabs the file size

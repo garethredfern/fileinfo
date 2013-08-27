@@ -5,7 +5,7 @@ A simple Statamic plugin to output file information.
 
 ## Installing
 
-Drop the `file-info folder` into the Statamic `/_add-ons/` folder.
+Drop the `fileinfo folder` into the Statamic `/_add-ons/` folder.
 
 ## Example
 

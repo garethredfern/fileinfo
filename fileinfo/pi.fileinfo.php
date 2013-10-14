@@ -9,7 +9,7 @@ class Plugin_fileinfo extends Plugin {
   );
 
   public function index() {
-    $file     = $this->fetchParam("file");
+    $file     = $this->fetchParam("file", null, null, null, false);
 
     $file_info =  array(
       "file_ext"  => File::getExtension(BASE_PATH . $file),

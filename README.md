@@ -5,7 +5,7 @@ A simple Statamic plugin to output file information.
 
 ## Installing
 
-Drop the `fileinfo` folder into the Statamic `/_add-ons/` folder.
+Drop the `fileinfo` folder into the Statamic `/_add-ons/` folder. If you have downloaded from github just remove the -master from the end of the folder name. You can delete the contents except for the pi.fileinfo.php file itself.
 
 ## Example
 

@@ -26,3 +26,4 @@ Drop the `fileinfo` folder into the Statamic `/_add-ons/` folder. If you have do
 
 - `{{ file_ext }}` grabs the file extension
 - `{{ file_size }}` grabs the file size
+- `{{ file_size_kilobytes }}` grabs the file size and converts it to kilobytes

@@ -13,7 +13,7 @@ Drop the `fileinfo` folder into the Statamic `/_add-ons/` folder. If you have do
 <ul>
 {{ fileinfo file="/assets/docs/mydocument.pdf" }}
   <li>Your file extension is: {{ file_ext }}
-  <li>Tour file size is: {{ file_size }}
+  <li>Your file size is: {{ file_size }}
 {{ /fileinfo }}
 </ul>
 ~~~

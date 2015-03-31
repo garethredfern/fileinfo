@@ -24,7 +24,11 @@ Drop the `fileinfo` folder into the Statamic `/_add-ons/` folder. If you have do
 
 ## Variables
 
+- `{{ file_name }}` grabs the file name (with extension)
 - `{{ file_ext }}` grabs the file extension
 - `{{ file_size }}` grabs the file size
 - `{{ file_size_kilobytes }}` grabs the file size and converts it to kilobytes
 - `{{ file_size_human }}` display file size in human readable format: B, KB, MB, TB
+
+## Changelog
+V 1.1  Added `{{ filename }}` to variables output

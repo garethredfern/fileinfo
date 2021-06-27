@@ -3,7 +3,7 @@ class Plugin_fileinfo extends Plugin {
 
   var $meta = array(
       'name'       => 'File Info',
-      'version'    => '1',
+      'version'    => '1.1',
       'author'     => 'Gareth Redfern',
       'author_url' => 'http://garethredfern.com'
   );
@@ -13,6 +13,7 @@ class Plugin_fileinfo extends Plugin {
     $fileSize = File::getSize(BASE_PATH . $file);
 
     $file_info = array(
+      "file_name" => basename($file), // Added by Rudy, March 31, 2015
       "file_ext"  => File::getExtension(BASE_PATH . $file),
       "file_size" => $fileSize,
       "file_size_kilobytes" => number_format($fileSize / 1024),
